@@ -1,0 +1,9 @@
+@media (min-width: 280px) and (max-width: 800px) {
+    .skill-col {
+        width: 100px;
+    }
+}
+
+.skill-col {
+    width: 150px;
+}

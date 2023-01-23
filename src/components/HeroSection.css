@@ -1,0 +1,29 @@
+.herosection {
+    padding: 30px 100px;
+    background-image: url(../assets/herosection.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    color: rgb(33, 33, 33);
+    
+}
+.wrapper .typewritter {
+    font-size: 18px;
+}
+@media (min-width: 280px) and (max-width: 600px) {
+    .herosection {
+        padding: 50px;
+    }
+    .wrapper {
+        width: 80%;
+        margin: auto;
+        font-size: 0.5em;
+    }
+}

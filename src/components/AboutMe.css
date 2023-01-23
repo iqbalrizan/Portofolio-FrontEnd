@@ -1,0 +1,21 @@
+.about-me {
+    width: 600px;
+    display: flex;
+    text-align: center;
+    background-color: aqua;
+    margin: auto;
+}
+.am-col1 {
+    display: flex;
+    justify-content: center;
+}
+
+.am-logo {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(89, 89, 89);
+}
+.am-logo:hover {
+    color: rgb(78, 78, 255);
+    font-size: 100px;
+}
