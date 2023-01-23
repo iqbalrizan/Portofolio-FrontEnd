@@ -23,12 +23,12 @@ const AboutMe = () => {
         
         <Row>
             <Col>
-            <h4 data-aos="fade-left">I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking for new opportunities & challenges with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects. Other than my strong knowledge and interest in IT fields, I also graduated from Gunadarma University with a Bachelor of Psychology degree, which firmly makes me an excellent candidate.</h4>
+            <h4 data-aos="flip-up">I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking for new opportunities & challenges with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects. Other than my strong knowledge and interest in IT fields, I also graduated from Gunadarma University with a Bachelor of Psychology degree, which firmly makes me an excellent candidate.</h4>
             </Col>
         </Row>
         <br />
         <br />
-        <Row data-aos="fade-right">
+        <Row data-aos="flip-down">
             <Col className='am-col1'>
             <h1>
                 <a href="https://www.linkedin.com/in/muhammad-iqbal-r-732503230/" target="_blank" className='no-decoration'>

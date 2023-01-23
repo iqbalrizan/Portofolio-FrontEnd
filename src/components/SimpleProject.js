@@ -27,7 +27,7 @@ const SimpleProject = () => {
         <br />
         <Row className='row-simpleproject'>
             <Col className='sp-col1'>
-            <Card style={{width : "31rem"}} className="card-sp" data-aos="fade-up" data-aos-delay="700">
+            <Card style={{width : "31rem"}} className="card-sp" data-aos="zoom-in" data-aos-delay="700">
       <Card.Img variant="top" src={notesapp} />
       <Card.Body>
         <Card.Title>Notes App</Card.Title>
@@ -47,7 +47,7 @@ const SimpleProject = () => {
     </Card>
             </Col>
             <Col className='sp-col1'>
-            <Card style={{width : "31rem"}} className="card-sp" data-aos="fade-up" data-aos-delay="600">
+            <Card style={{width : "31rem"}} className="card-sp" data-aos="zoom-in" data-aos-delay="600">
       <Card.Img variant="top" src={moviedatabase} />
       <Card.Body>
         <Card.Title>Movie Database</Card.Title>
@@ -67,7 +67,7 @@ const SimpleProject = () => {
     </Card>
             </Col>
             <Col className='sp-col1'>
-            <Card style={{ width: '31rem' }} className="card-sp" data-aos="fade-up" data-aos-delay="500">
+            <Card style={{ width: '31rem' }} className="card-sp" data-aos="zoom-in" data-aos-delay="500">
       <Card.Img variant="top" src={budgetplanner} />
       <Card.Body>
         <Card.Title>Budget Planner App</Card.Title>
@@ -88,7 +88,7 @@ const SimpleProject = () => {
             </Col>
         </Row>
         <Row className='row-simpleproject'>
-            <Col className='sp-col2'><Card style={{ width: '40rem' }} className="card-sp" data-aos="fade-up" data-aos-delay="400">
+            <Col className='sp-col2'><Card style={{ width: '31rem' }} className="card-sp" data-aos="zoom-in" data-aos-delay="400">
       <Card.Img variant="top" src={calculator} />
       <Card.Body>
         <Card.Title>Calculator</Card.Title>
@@ -106,7 +106,7 @@ const SimpleProject = () => {
                             </a>
       </Card.Body>
     </Card></Col>
-            <Col className='sp-col2'><Card style={{ width: '40rem' }} className="card-sp" data-aos="fade-up" data-aos-delay="300">
+            <Col className='sp-col2'><Card style={{ width: '31rem' }} className="card-sp" data-aos="zoom-in" data-aos-delay="300">
       <Card.Img variant="top" src={quizapp} />
       <Card.Body>
         <Card.Title>Quiz App</Card.Title>
