@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap'
 import Binarplatinum from "../assets/platinum.png"
 import Binargold from "../assets/binargold.png"
 import Binaradmin from "../assets/binaradmin.png"
+import Trippy from "../assets/Trippy.jpg"
 import "./Projects.css"
 import AOS from "aos"
 
@@ -41,7 +42,15 @@ const Project = () => {
             desc : "A website that was developed solo, a car rental website, implementing a UI layout based on the design in Figma and Implementing asynchronous processes when fetching data from API",
             link : "https://gold-challenge.vercel.app/",
             repo : "https://github.com/iqbalrizan/belajarreact"
-        }
+        },
+        {
+            image : <img src={Trippy} height="300px" width="100%" border="1px solid black"/>,
+            tittle : "Trippy",
+            desc : "Developing a example tour and travel website from start to finish. Ensured the website runs smoothly and is responsive, with an attractive and user-friendly interface. Worked independently to develop engaging features and content for users",
+            link : "https://trippy-tau.vercel.app/",
+            repo : "https://github.com/iqbalrizan/Trippy"
+        },
+
     ]
   return (
     <div className='container-fluid my-5 mx-0' id='projects'>
