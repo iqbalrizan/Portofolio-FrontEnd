@@ -4,6 +4,7 @@ import Binarplatinum from "../assets/platinum.png"
 import Binargold from "../assets/binargold.png"
 import Binaradmin from "../assets/binaradmin.png"
 import Trippy from "../assets/Trippy.jpg"
+import gpt from "../assets/gpt-3.jpg"
 import "./Projects.css"
 import AOS from "aos"
 
@@ -49,6 +50,13 @@ const Project = () => {
             desc : "Developing a example tour and travel website from start to finish. Ensured the website runs smoothly and is responsive, with an attractive and user-friendly interface. Worked independently to develop engaging features and content for users",
             link : "https://trippy-tau.vercel.app/",
             repo : "https://github.com/iqbalrizan/Trippy"
+        },
+        {
+            image : <img src={gpt} height="300px" width="100%" border="1px solid black"/>,
+            tittle : "GPT-3",
+            desc : "Fully Responsive Modern UI/UX Website in React JS, Taken from Figma and implemented into code form, turn them into four modern, responsive, beautifully-designed applications",
+            link : "https://gpt-3-psi.vercel.app/",
+            repo : "https://github.com/iqbalrizan/gpt-3"
         },
 
     ]
