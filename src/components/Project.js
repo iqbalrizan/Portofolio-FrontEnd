@@ -5,6 +5,7 @@ import Binargold from "../assets/binargold.png"
 import Binaradmin from "../assets/binaradmin.png"
 import Trippy from "../assets/Trippy.jpg"
 import gpt from "../assets/gpt-3.jpg"
+import Cartsy from "../assets/Cartsy.jpg"
 import "./Projects.css"
 import AOS from "aos"
 
@@ -24,35 +25,42 @@ const Project = () => {
     const projectData = [
         {
             
-            image : <img src={Binarplatinum} height="300px" width="100%" border="1px solid black" />,
+            image : <img src={Binarplatinum} height="300px" width="100%"  />,
             tittle : "Binar Platinum Challenge",
             desc : "A Binar car rental website, adding the feature of selecting the rental date, and making payments, a website created by a team, Applying media handling processes (Video/Image/PDF) in the challenge,Using web storage (local storage, session storage, or cookie) in the challenge, Using JWT and Oauth for registration and login processes, Using Rest API for communication between frontend and backend",
             link : "https://binar-platinum-nu.vercel.app/",
             repo : "https://github.com/iqbalrizan/Binar-Platinum"
         },
         {
-            image : <img src={Binaradmin} height="300px" width="100%" border="1px solid black" />,
+            image : <img src={Binaradmin} height="300px" width="100%" />,
             tittle : "Binar Platinum Challenge Admin",
             desc : "A website used by admin for Binar rental car, for managing data and orders, It has a dashboard and a car list, admin can filter based on existing car data",
             link : "https://binar-car-rental-platinum-admin.vercel.app/login",
             repo : "https://github.com/iqbalrizan/Binar-platinum-Admin"
         },
         {
-            image : <img src={Binargold} height="300px" width="100%" border="1px solid black"/>,
+            image : <img src={Binargold} height="300px" width="100%"/>,
             tittle : "Binar gold Challenge",
             desc : "A website that was developed solo, a car rental website, implementing a UI layout based on the design in Figma and Implementing asynchronous processes when fetching data from API",
             link : "https://gold-challenge.vercel.app/",
             repo : "https://github.com/iqbalrizan/belajarreact"
         },
         {
-            image : <img src={Trippy} height="300px" width="100%" border="1px solid black"/>,
+            image : <img src={Cartsy} height="300px" width="100%"/>,
+            tittle : "Cartsy E-Commerce Website",
+            desc : "The Cartsy e-commerce website CV is a non-commercial project built using React.js, using Redux Toolkit with Product category menu, product search, shopping cart, and checkout functionalities",
+            link : "https://e-commerce-cartsy.vercel.app/",
+            repo : "https://github.com/iqbalrizan/E-commerce-Cartsy"
+        },
+        {
+            image : <img src={Trippy} height="300px" width="100%"/>,
             tittle : "Trippy",
             desc : "Developing a example tour and travel website from start to finish. Ensured the website runs smoothly and is responsive, with an attractive and user-friendly interface. Worked independently to develop engaging features and content for users",
             link : "https://trippy-tau.vercel.app/",
             repo : "https://github.com/iqbalrizan/Trippy"
         },
         {
-            image : <img src={gpt} height="300px" width="100%" border="1px solid black"/>,
+            image : <img src={gpt} height="300px" width="100%"/>,
             tittle : "GPT-3",
             desc : "Fully Responsive Modern UI/UX Website in React JS, Taken from Figma and implemented into code form, turn them into four modern, responsive, beautifully-designed applications",
             link : "https://gpt-3-psi.vercel.app/",
