@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap'
 import Binarplatinum from "../assets/platinum.png"
 import Binargold from "../assets/binargold.png"
 import Binaradmin from "../assets/binaradmin.png"
+import Snapup from "../assets/snapup.jpg"
 import Trippy from "../assets/Trippy.jpg"
 import gpt from "../assets/gpt-3.jpg"
 import Cartsy from "../assets/Cartsy.jpg"
@@ -44,6 +45,13 @@ const Project = () => {
             desc : "A website that was developed solo, a car rental website, implementing a UI layout based on the design in Figma and Implementing asynchronous processes when fetching data from API",
             link : "https://gold-challenge.vercel.app/",
             repo : "https://github.com/iqbalrizan/belajarreact"
+        },
+        {
+            image : <img src={Snapup} height="300px" width="100%"/>,
+            tittle : "SnapUp E-Commerce Website",
+            desc : "Project in creating an example e-commerce website using React and Redux toolkit technologies. Using data dummy and local storage implementation. Contributed to designing a modern, minimalist interface that is user-friendly",
+            link : "https://snap-up-ecommerce.vercel.app/",
+            repo : "https://github.com/iqbalrizan/SnapUp-Ecommerce"
         },
         {
             image : <img src={Cartsy} height="300px" width="100%"/>,
