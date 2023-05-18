@@ -4,6 +4,7 @@ import Binarplatinum from "../assets/platinum.png"
 import Binargold from "../assets/binargold.png"
 import Binaradmin from "../assets/binaradmin.png"
 import Snapup from "../assets/snapup.jpg"
+import imdb from "../assets/imdb-clone.jpg"
 import Trippy from "../assets/Trippy.jpg"
 import gpt from "../assets/gpt-3.jpg"
 import Cartsy from "../assets/Cartsy.jpg"
@@ -52,6 +53,13 @@ const Project = () => {
             desc : "Project in creating an example e-commerce website using React and Redux toolkit technologies. Using data dummy and local storage implementation. Contributed to designing a modern, minimalist interface that is user-friendly",
             link : "https://snap-up-ecommerce.vercel.app/",
             repo : "https://github.com/iqbalrizan/SnapUp-Ecommerce"
+        },
+        {
+            image : <img src={imdb} height="300px" width="100%"/>,
+            tittle : "IMDb-Clone Website",
+            desc : "The website is a movie and TV show database, providing information on various titles including plot summaries, ratings and reviews, release dates, and other related information. The website has a modern and sleek design, with easy-to-navigate menus and visually appealing graphics and images. It provides an enjoyable user experience for those looking to browse and discover new titles to watch.",
+            link : "https://im-db-clone-gamma.vercel.app/",
+            repo : "https://github.com/iqbalrizan/IMDb-clone"
         },
         {
             image : <img src={Cartsy} height="300px" width="100%"/>,
