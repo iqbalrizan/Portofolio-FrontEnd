@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section className='herosection'>
         <div className="wrapper">
             <h1>HI,</h1>
-            <h2>I'm Iqbal Rizan, a Junior Front-End Engineering</h2>
+            <h2>I'm Iqbal Rizan, a  Front-End Engineering</h2>
             <Typewriter options={{
                 strings : words,
                 autoStart : true,

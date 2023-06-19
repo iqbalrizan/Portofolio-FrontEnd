@@ -43,13 +43,13 @@ const SkillGraph = () => {
         <br />
         <br />
         <div className="row justify-content-center mx-0" >
-            <Circular val={9} text={"HTML"} />
-            <Circular val={8} text={"CSS"} />
-            <Circular val={7} text={"JavaScript"} />
-            <Circular val={8.5} text={"Bootstrap"} />
-            <Circular val={8} text={"GIT"} />
-            <Circular val={8} text={"React"} />
-            <Circular val={7} text={"Redux"} />
+            <Circular val={9} text={"React JS"} />
+            <Circular val={8} text={"JavaScript"} />
+            <Circular val={8} text={"Next JS"} />
+            <Circular val={8.5} text={"Express JS"} />
+            <Circular val={8} text={"Node JS"} />
+            <Circular val={8} text={"MySQL"} />
+            <Circular val={7} text={"MongoDB"} />
         </div>
     </div>
 
