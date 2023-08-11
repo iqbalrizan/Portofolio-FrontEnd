@@ -131,7 +131,9 @@ import Snapup from "../assets/snapup.jpg"
 import imdb from "../assets/imdb-clone.jpg"
 import Trippy from "../assets/Trippy.jpg"
 import gpt from "../assets/gpt-3.jpg"
+import gericht from "../assets/Gericht Restaurant.jpg"
 import Cartsy from "../assets/Cartsy.jpg"
+import pokedex from "../assets/Pokedex-App.jpg"
 import youtube from "../assets/Youtube-Clone.jpg"
 import reactDashboard from "../assets/React-Dashboard.jpg"
 import "./Projects.css"
@@ -139,7 +141,7 @@ import AOS from "aos"
 
 const Project = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const projectsPerPage = 3; // Jumlah proyek yang ditampilkan per halaman
+  const projectsPerPage = 3;
 
   useEffect (() => {
             AOS.init({
@@ -199,6 +201,20 @@ const Project = () => {
                 desc : "The website is a movie and TV show database, providing information on various titles including plot summaries, ratings and reviews, release dates, and other related information. The website has a modern and sleek design, with easy-to-navigate menus and visually appealing graphics and images. It provides an enjoyable user experience for those looking to browse and discover new titles to watch.",
                 link : "https://im-db-clone-gamma.vercel.app/",
                 repo : "https://github.com/iqbalrizan/IMDb-clone"
+            },
+            {
+                image : <img src={pokedex} height="300px" width="100%"/>,
+                tittle : "Pokedex-App Website",
+                desc : "The Pokedex Web App is a project I created to showcase my frontend development skills. This website functions as a digital encyclopedia that provides comprehensive information about various Pokémon species. Users can explore different types of Pokémon, view their detailed characteristics, and display relevant images and statistics.",
+                link : "https://pokedex-app-nu-two.vercel.app/",
+                repo : "https://github.com/iqbalrizan/Pokedex-app"
+            },
+            {
+                image : <img src={gericht} height="300px" width="100%"/>,
+                tittle : "Gericht Restaurant Website",
+                desc : "The Flax Restaurant Website is a showcase of my frontend development expertise, designed to represent a modern and inviting restaurant experience online. This website offers visitors an immersive glimpse into the culinary world of Flax Restaurant, highlighting its menu, ambiance, and reservations.",
+                link : "https://gericht-restaurant-flax.vercel.app/",
+                repo : "https://github.com/iqbalrizan/gericht-Restaurant"
             },
             {
                 image : <img src={Cartsy} height="300px" width="100%"/>,
